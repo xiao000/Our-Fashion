@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>电商网站-项目</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="css1/index.css"/>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+  <style>
+    /*div{  border: 1px solid #000;}*/
+  </style>
+</head>
+<body>
+<!--header-->
+  <div class="header">
+    <div class="container">
+      <!--导航条-->
+      <div class="navbar navbar-default">
+        <div class="container">
+          <!--导航条头部 = 品牌 + 汉堡包-->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#"></a>
+            <a class="navbar-toggle" href="#menu" data-toggle="collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+          </div>
+          <!--导航条折叠部分-->
+          <div id="menu" class="collapse navbar-collapse">
+            <!--折叠部分左侧的导航菜单-->
+            <ul class="nav navbar-nav">
+              <li><a href="#" class="active">首页</a></li>
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown">女装<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="product.html">上衣</a></li>
+                  <li class="divider"></li>
+                  <li><a href="product.html">裙子</a></li>
+                  <li class="divider"></li>
+                  <li><a href="product.html">裤子</a></li>
+                  <li class="divider"></li>
+                  <li><a href="product.html">鞋子</a></li>
+                  <li class="divider"></li>
+                  <li><a href="product.html">包包</a></li>
+                  <li class="divider"></li>
+                  <li><a href="product.html">配饰</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown">男装<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">应季潮品</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">上衣</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">下装</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">鞋包</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">配饰</a></li>
+                </ul>
+              </li>
+              <li><a href="#">关于我们</a></li>
+              <li><a href="#">博客</a></li>
+              <li><a href="#">最新消息</a></li>
+              <li><a href="#">网上购物</a></li>
+            </ul>
+            <!--折叠部分右侧的导航菜单-->
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">简体中文</a></li>
+              <li><a href="login.html">登录</a></li>
+              <!--<li>-->
+                <!--<p class="btn">购物车:<span class="glyphicon glyphicon-shopping-cart text-danger"></span></p>-->
+              <!--</li>-->
+            </ul>
+            <!--折叠部分的表单-->
+            <form class="navbar-form navbar-right">
+              <div class="form-group has-feedback">
+                <label class="sr-only" for="kw">搜索关键字：</label>
+                <input class="form-control" id="kw" placeholder="产品搜索">
+                <span class="glyphicon glyphicon-search form-control-feedback"></span>
+              </div>
+            </form>
+            <!--折叠部分的文本-->
+            <span class="navbar-text navbar-right">|</span>
+            <!--折叠部分的超链接-->
+            <a class="navbar-link navbar-text navbar-right" href="#">产品搜索</a>
+          </div>
+        </div>
+      </div>
+      <!--简单介绍内容-->
+      <div class="hmain">
+        <h1>时尚和创意</h1>
+          <p class="text-justify">
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, consequuntur culpa dolorum eveniet nam veritatis voluptas! Aspernatur facilis incidunt laboriosam, minima molestiae nesciunt numquam odio, odit perspiciatis tempore tenetur voluptates!</span>
+            <span>Corporis, cum eos est eveniet non perferendis quo repellat sed totam velit vitae voluptates voluptatum. Blanditiis ducimus maxime nemo omnis optio repellendus temporibus veritatis voluptatibus. Aliquid esse minima rem unde!</span>
+          </p>
+      </div>
+    </div>
+  </div>
+<!--main-->
+<div class="main">
+  <div class="container">
+    <!--三张简图-->
+    <div class="s-img">
+      <div class="row">
+        <div class="col-sm-4 col-xs-12">
+          <div class="s-imgs">
+            <a href="product.html">
+              <img src="img/b1.jpg" class="img-responsive" >
+              <div class="img-main">
+                <h3>时尚</h3>
+                <p>高贵</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+          <div class="s-imgs">
+            <a href="product.html">
+              <img src="img/b2.jpg" class="img-responsive" >
+              <div class="img-main">
+               <h3>潮流</h3>
+               <p>魅力</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+          <div class="s-imgs">
+            <a href="#">
+              <img src="img/b3.jpg" class="img-responsive" >
+              <div class="img-main">
+                <h3>优雅</h3>
+                <p>性感</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--产品内容信息-->
+    <div class="product">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-3 top-product">
+            <ul class="list-unstyled list-inline">
+              <li><a href="#">畅销</a></li>
+              <li><a href="#">流行</a></li>
+              <li><a href="#">新到货</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-xs-6">
+            <a href="single.html">
+              <div class="img-product img1">
+                <div class="my-mask">
+                  <button class="btn">现在下单</button>
+                </div>
+              </div>
+            </a>
+            <div class="message">
+              <ul class="list-unstyled">
+                <li><a href="product.html">我们的时尚，你的魅力</a></li>
+                <li>$9999</li>
+                <li><a href="car.html" class="btn btn-warning">购物车<span class="glyphicon glyphicon-shopping-cart"></span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <a href="single.html">
+              <div class="img-product img2">
+                <div class="my-mask">
+                  <button class="btn">现在下单</button>
+                </div>
+              </div>
+            </a>
+            <div class="message">
+              <ul class="list-unstyled">
+                <li><a href="product.html">我们的时尚，你的魅力</a></li>
+                <li>$8888</li>
+                <li><a href="car.html" class="btn btn-warning">购物车<span class="glyphicon glyphicon-shopping-cart"></span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <a href="single.html">
+              <div class="img-product img3">
+                <div class="my-mask">
+                  <button class="btn">现在下单</button>
+                </div>
+              </div>
+            </a>
+            <div class="message">
+              <ul class="list-unstyled">
+                <li><a href="product.html">我们的时尚，你的魅力</a></li>
+                <li>$9999</li>
+                <li><a href="car.html" class="btn btn-warning">购物车<span class="glyphicon glyphicon-shopping-cart"></span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <a href="single.html">
+              <div class="img-product img4">
+                <div class="my-mask">
+                  <button class="btn">现在下单</button>
+                </div>
+              </div>
+            </a>
+            <div class="message">
+              <ul class="list-unstyled">
+                <li><a href="product.html">我们的时尚，你的魅力</a></li>
+                <li>$9999</li>
+                <li><a href="car.html" class="btn btn-warning">购物车<span class="glyphicon glyphicon-shopping-cart"></span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <a href="single.html">
+              <div class="img-product img5">
+                <div class="my-mask">
+                  <button class="btn">现在下单</button>
+                </div>
+              </div>
+            </a>
+            <div class="message">
+              <ul class="list-unstyled">
+                <li><a href="product.html">我们的时尚，你的魅力</a></li>
+                <li>$9999</li>
+                <li><a href="car.html" class="btn btn-warning">购物车<span class="glyphicon glyphicon-shopping-cart"></span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <a href="single.html">
+              <div class="img-product img6">
+                <div class="my-mask">
+                  <button class="btn">现在下单</button>
+                </div>
+              </div>
+            </a>
+            <div class="message">
+              <ul class="list-unstyled">
+                <li><a href="product.html">我们的时尚，你的魅力</a></li>
+                <li>$9999</li>
+                <li><a href="car.html" class="btn btn-warning">购物车<span class="glyphicon glyphicon-shopping-cart"></span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--footer-->
+<div class="footer">
+  <div class="container">
+    <!--底部信息-->
+    <div class="row">
+      <div class="col-md-6 com-sx-12">
+        <div class="row">
+          <div class="col-md-6 com-sx-12">
+            <ul class="list-unstyled">
+              <li><a href="#">关于我们</a></li>
+              <li><a href="#">博客</a></li>
+              <li><a href="#">最佳销售员</a></li>
+              <li><a href="#">我们的队伍</a></li>
+              <li><a href="#">我们的品牌</a></li>
+              <li><a href="#">联系我们</a></li>
+              </ul>
+            <ul class="list-unstyled list-inline">
+              跟着我们的步伐：
+              <li><a href="#">WeChat</a></li>
+              <li><a href="#">QQ</a></li>
+              <li><a href="#">新浪微博</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 com-sx-12">
+            <ul class="list">
+              <li><a href="#">关于我们</a></li>
+              <li><a href="#">博客</a></li>
+              <li><a href="#">最佳销售员</a></li>
+              <li><a href="#">我们的队伍</a></li>
+              <li><a href="#">我们的品牌</a></li>
+              <li><a href="#">联系我们</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 com-sx-12">
+        <div class="form-horizontal">
+          <div class="form-group">
+             <div class="col-xs-6">
+               <label for="un" class="sr-only"> 用户名：</label>
+               <input id="un" class="form-control" placeholder="请输入用户名"/>
+             </div>
+             <div class="col-xs-6">
+               <label for="em" class="sr-only"> 邮箱：</label>
+               <input id="em" class="form-control" placeholder="请输入邮箱号"/>
+             </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-12">
+             <textarea class="form-control" rows="5" placeholder="请输入对我们的建议/意见，谢谢"></textarea>
+              </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-12">
+              <a href="3" class="btn btn-success" type="submit">提交</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--版权所有信息-->
+    <div class="foot-logo">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-md-offset-2">
+          <a href="#">我们的时尚</a>
+        </div>
+        <div class="col-sm-12 col-md-4 col-md-offset-2">
+          <p>版权所有©xxxx-xx-xx</p>
+        </div>
+      </div>
+    </div>
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootlint.js"></script>
+<script>
+//       bootlint.showLintReportForCurrentDocument([]);
+</script>
+</body>
+</html>
